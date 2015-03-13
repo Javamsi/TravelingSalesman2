@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.vamsij.travelingsalesman.GameActivity">
+    <item android:id="@+id/Undo" android:title="@string/Undo"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/Clear" android:title="@string/Clear"
+        android:orderInCategory="101" app:showAsAction="never" />
+    <item android:id="@+id/Quit" android:title="@string/Quit"
+        android:orderInCategory="102" app:showAsAction="never" />
+</menu>
